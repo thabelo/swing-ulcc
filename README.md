@@ -52,5 +52,18 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## API Test
+
+API can also be tested here 
+
+http://bluelink.co.za:3000/calculate
+
+```
+curl --location --request POST 'http://bluelink.co.za:3000/calculate' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "string": "John loves Doe"
+}'
+```
 
 
