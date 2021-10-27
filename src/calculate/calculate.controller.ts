@@ -8,6 +8,7 @@ export class CalculateController {
   @Post()
   calculate(@Body() params: any): any {
     const data = [];
+
     // Calculator 1
     const calculator1Data = this.calculateService.calculator1(params.string);
     data.push(
@@ -32,6 +33,7 @@ export class CalculateController {
         ' out of a maximum of 6',
     );
 
+    // Aggregator
     data.push(
       'Aggregate : ' +
         this.calculateService
