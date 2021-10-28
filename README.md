@@ -18,7 +18,7 @@ Also the comparisons not violationg bijection law of the given personas.
 The above also applies to dimorphic differeneces.
 
 ### Aggregation and weight 
-It is makes sense to have the Bijection weight scored higher since personality is more important when matching 
+It makes sense to have the Bijection weight scored higher since personality is more important when matching 
 
 ## Installation
 
